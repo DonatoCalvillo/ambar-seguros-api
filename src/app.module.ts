@@ -6,7 +6,7 @@ import { AuthModule } from './auth/auth.module';
   imports: [
     AuthModule,
     ConfigModule.forRoot(),
-    MongooseModule.forRoot('mongodb://localhost:27017/ambardb')
+    MongooseModule.forRoot(process.env.MONGO_URL)
   ],
   controllers: [],
   providers: [],

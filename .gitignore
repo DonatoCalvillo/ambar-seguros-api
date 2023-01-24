@@ -11,12 +11,19 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+./mongo
+
 # OS
 .DS_Store
 
 # Tests
 /coverage
 /.nyc_output
+
+/mongo
+
+.env
+
 
 # IDEs and editors
 /.idea
